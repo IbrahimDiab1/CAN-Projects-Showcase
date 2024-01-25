@@ -7,13 +7,13 @@ This case study involves simulating frames between two nodes using the CANoe too
 ## Contents
 
 - **Database:**
-  - View the [Database Screenshot](.\CAN canoe case study 3\Images\database_canoe.png) to understand the network structure, nodes, messages, and signals.
+  - View the [Database Screenshot](".\CAN canoe case study 3\Images\database_canoe.png") to understand the network structure, nodes, messages, and signals.
 
 - **CAPL Script:**
-  - Refer to the [CAPL Script Screenshot](.\CAN canoe case study 3\Images\capl script .png) for insights into the script that governs the functionality of the communication between nodes.
+  - Refer to the [CAPL Script Screenshot](".\CAN canoe case study 3\Images\capl script .png") for insights into the script that governs the functionality of the communication between nodes.
 
 - **Simulation GIF:**
-  - Explore the [Simulation GIF](.\CAN canoe case study 3\Images\canoe can practicing  (1).gif) showcasing the final output and the dynamic interaction between nodes.
+  - Explore the [Simulation GIF](".\CAN canoe case study 3\Images\canoe can practicing  (1).gif") showcasing the final output and the dynamic interaction between nodes.
 
 ## Usage
 
