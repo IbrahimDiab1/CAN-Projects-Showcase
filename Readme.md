@@ -13,7 +13,7 @@ This case study involves simulating frames between two nodes using the CANoe too
   - Refer to the ![CAPL Script Screenshot](CAN canoe case study 3/Images/capl script .png) for insights into the script that governs the functionality of the communication between nodes.
 
 - **Simulation GIF:**
-  - Explore the ![Simulation GIF](CAN canoe case study 3/Images/canoe can practicing  (1).gif) showcasing the final output and the dynamic interaction between nodes.
+  - Explore the ![Simulation GIF](CAN%20canoe%20case%20study%203/Images/canoe%20can%20practicing%20%20(1).gif) showcasing the final output and the dynamic interaction between nodes.
 
 ## Usage
 
