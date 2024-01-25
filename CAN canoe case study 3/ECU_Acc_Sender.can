@@ -1,0 +1,31 @@
+﻿/*@!Encoding:65001*/
+includes
+{
+  
+}
+
+variables
+{
+  msTimer Acc_Timer;
+  int ACC_Timer_Period = 200;
+  message Acc_sender_msg Acc_msg;
+}
+
+on start
+{
+  write("start ECU_Acc_Sender (developed by Ibrahim Diab).");
+   setTimer(Acc_Timer, ACC_Timer_Period);
+}
+
+on message Speed_sender_msg
+{
+  //write("Received speed equals: %d",Speed);
+}
+
+on timer Acc_Timer
+{
+  Acc_msg.Acc.phys = @sysvar::Acc_sys_var;
+  output(Acc_msg);
+  setTimer(Acc_Timer, ACC_Timer_Period);
+}
+

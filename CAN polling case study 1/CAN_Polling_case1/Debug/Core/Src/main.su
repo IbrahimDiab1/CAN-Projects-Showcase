@@ -1,0 +1,8 @@
+../Core/Src/main.c:68:5:main	32	static
+../Core/Src/main.c:121:6:CAN_initReceptionFilters	56	static
+../Core/Src/main.c:140:6:CAN_sendMsg	56	static
+../Core/Src/main.c:160:6:CAN_receiveMsg	56	static
+../Core/Src/main.c:178:6:SystemClock_Config	72	static
+../Core/Src/main.c:215:13:MX_CAN_Init	8	static
+../Core/Src/main.c:252:13:MX_GPIO_Init	16	static
+../Core/Src/main.c:272:6:Error_Handler	4	static,ignoring_inline_asm

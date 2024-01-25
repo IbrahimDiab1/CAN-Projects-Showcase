@@ -1,0 +1,8 @@
+../Core/Src/main.c:68:5:main	2
+../Core/Src/main.c:121:6:CAN_initReceptionFilters	1
+../Core/Src/main.c:140:6:CAN_sendMsg	4
+../Core/Src/main.c:160:6:CAN_receiveMsg	3
+../Core/Src/main.c:178:6:SystemClock_Config	3
+../Core/Src/main.c:215:13:MX_CAN_Init	2
+../Core/Src/main.c:252:13:MX_GPIO_Init	1
+../Core/Src/main.c:272:6:Error_Handler	1

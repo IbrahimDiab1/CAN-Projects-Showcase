@@ -1,0 +1,36 @@
+﻿/*@!Encoding:65001*/
+includes
+{
+  
+}
+
+variables
+{
+  message Speed_sender_msg speed_msg;
+}
+
+on start
+{
+  write("start ECU_Speed_Sender (developed by Ibrahim Diab).");
+}
+
+on message Acc_sender_msg
+{
+  if (this.Acc.phys == 1)
+  {
+    if(@sysvar::speed_sys_var >= 180)
+      @sysvar::speed_sys_var = 180;
+    else
+    @sysvar::speed_sys_var++;
+  }
+  else
+  {
+    if(@sysvar::speed_sys_var <=0)
+      @sysvar::speed_sys_var =0;
+    else
+    @sysvar::speed_sys_var --;
+  }
+  
+  speed_msg.Speed.phys = @sysvar::speed_sys_var;
+  output(speed_msg);
+}
